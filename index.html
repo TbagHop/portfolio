@@ -47,7 +47,7 @@
                 <div class="left-about">
                     <h4>Information About me</h4>
                     <p>
-                        I'm a Web Developer with 3+ years of professional experience on a high-traffic web platform. I build landing pages and UI with Angular, TypeScript and SCSS, with a focus on responsive layouts, clean component structure and fast load times. I'm currently expanding into React, Redux Toolkit and real-time features, and I use AI coding agents daily as part of how I build and review code.
+                        I'm a Web Developer with 3+ years of professional experience on a high-traffic web platform. I build landing pages with PHP, JavaScript and CSS, and newer ones in Angular, TypeScript and SCSS, with a focus on responsive layouts, clean component structure and fast load times. I'm currently expanding into React, Redux Toolkit and real-time features, and I use AI coding agents daily as part of how I build and review code.
                         <br>
                         <br>
                     </p>
@@ -111,10 +111,10 @@
                     <p class="tl-duration">2023 - present</p>
                     <h5>Web Developer (Marketplace)<span> - High-traffic web platform</span></h5>
                     <ul style="list-style: circle !important;">
-                        <li>Build and maintain landing pages and UI components with Angular, TypeScript and SCSS.</li>
+                        <li>Build and maintain landing pages with PHP, JavaScript and CSS, and newer ones in Angular, TypeScript and SCSS.</li>
                         <li>Deliver responsive, cross-browser layouts for a site with very high daily traffic.</li>
                         <li>Keep pages fast: lean assets, efficient styles and careful component structure.</li>
-                        <li>Built 7 campaign landing pages, 4 creator landing sites and 2 brand homepages (see Portfolio).</li>
+                        <li>Built the team's first 3D landing page (Three.js), plus 7 campaign landing pages, 4 creator landing sites and 2 brand homepages (see Portfolio).</li>
                         <li>Work in a Git merge-request workflow with code review.</li>
                     </ul>
                 </div>
@@ -231,6 +231,36 @@
                     </button>
                 </div>
                 <div class="pro-work__cards" id="pro-work-cards" hidden>
+                    <div class="pro-highlights">
+                        <div class="pro-card pro-card--highlight">
+                            <span class="pro-card__tag">Highlight &middot; Team's first 3D landing page</span>
+                            <h5>3D landing page (LP 32)</h5>
+                            <p>A scroll-driven 3D corridor of video screens built with Three.js, adapted to every device:</p>
+                            <ul class="pro-card__points">
+                                <li>Checks WebGL2, device strength and reduced-motion before first paint; weaker devices get a lightweight video fallback</li>
+                                <li>Mobile: capped render resolution, only the 2 nearest videos play, 30 fps when idle</li>
+                                <li>Measures its own frame rate and lowers quality automatically on slow devices</li>
+                                <li>Rendering pauses when the tab is hidden or the sign-up modal is open; the CTA never waits on the 3D</li>
+                            </ul>
+                            <p class="pro-card__stack">Three.js &middot; JavaScript &middot; CSS &middot; PHP</p>
+                            <ul class="pro-card__links">
+                                <li><a href="https://lp.mydirtyhobby.com/32/?lang=en" target="_blank" rel="noopener noreferrer nofollow">View live <i class="fas fa-external-link-alt"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="pro-card pro-card--highlight">
+                            <span class="pro-card__tag">Highlight &middot; Launching soon</span>
+                            <h5>Angular landing page</h5>
+                            <p>A multilingual landing page with registration, built in Angular 21:</p>
+                            <ul class="pro-card__points">
+                                <li>Standalone components with a lazy-loaded landing component</li>
+                                <li>5 languages (DE, EN, FR, ES, IT) and a sign-up form with custom validators</li>
+                                <li>Animation loop runs outside Angular's zone, pauses when hidden and scales down on small or weak devices</li>
+                                <li>Mobile-safe video autoplay with a tap fallback; respects reduced-motion</li>
+                            </ul>
+                            <p class="pro-card__stack">Angular 21 &middot; TypeScript &middot; SCSS</p>
+                        </div>
+                    </div>
+                    <div class="pro-grid">
                     <div class="pro-card">
                         <h5>MyDirtyHobby campaign landing pages</h5>
                         <p>7 responsive campaign landing pages for a high-traffic platform.</p>
@@ -261,6 +291,7 @@
                                 <li><a href="https://nakedgermans.com/homepage" target="_blank" rel="noopener noreferrer nofollow">NakedGermans <i class="fas fa-external-link-alt"></i></a></li>
                                 <li><a href="https://fetischdeutschland.com/homepage" target="_blank" rel="noopener noreferrer nofollow">FetischDeutschland <i class="fas fa-external-link-alt"></i></a></li>
                         </ul>
+                    </div>
                     </div>
                 </div>
             </div>

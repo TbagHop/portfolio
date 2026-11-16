@@ -1144,11 +1144,29 @@ section {
   margin: 0 auto;
   cursor: pointer;
 }
-.pro-work__cards {
+.pro-highlights {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.pro-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
+.pro-card--highlight { border-color: var(--color-secondary); }
+.pro-card__tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-secondary);
+  margin-bottom: 0.5rem;
+}
+.pro-card__points { padding-left: 1.1rem; margin-bottom: 1rem; color: var(--color-grey-1); font-size: 0.92rem; line-height: 1.6; }
+.pro-card__points li { margin-bottom: 0.3rem; }
+.pro-card__stack { font-size: 0.85rem !important; color: var(--color-grey-2) !important; }
 .pro-card {
   padding: 1.6rem;
   border-radius: var(--br-sm-2);
@@ -1168,5 +1186,5 @@ section {
 .pro-card__links a:hover { background-color: var(--color-secondary); color: #fff; }
 .pro-card__links i { font-size: 0.7rem; margin-left: 0.3rem; }
 @media screen and (max-width: 1250px) {
-  .pro-work__cards { grid-template-columns: 1fr; }
+  .pro-highlights, .pro-grid { grid-template-columns: 1fr; }
 }
