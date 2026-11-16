@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Spyros Charalambous - CV</title>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;500&family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  @page { size: letter; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body {
+    width: 8.5in; height: 11in; overflow: hidden;
+    background: #3a3a3a; color: #e8e8e8;
+    font: 9.6pt/1.42 "Nunito", sans-serif;
+    padding: 0.42in 0.55in 0.35in;
+  }
+  a { color: inherit; }
+  h1 { font: 500 17pt "Spectral", serif; text-align: center; letter-spacing: .3px; }
+  .contact { font: 9.5pt "Spectral", serif; text-align: center; margin-top: 2px; }
+  .contact span + span::before { content: "|"; color: #888; margin: 0 8px; }
+  h2 {
+    display: flex; align-items: center; gap: 6px;
+    font: 700 9.5pt "Nunito", sans-serif; color: #6fb3f2;
+    margin: 13px 0 5px;
+  }
+  h2::after { content: ""; flex: 0 0 72%; border-bottom: 1px solid #777; }
+  ul { list-style: none; }
+  li { position: relative; padding-left: 12px; }
+  li::before { content: "•"; position: absolute; left: 0; color: #6fb3f2; }
+  .job { margin-bottom: 8px; }
+  .job-head {
+    display: grid; grid-template-columns: 1fr 1.3fr 1fr; align-items: start;
+    font-weight: 700; margin-bottom: 2px;
+  }
+  .job-head .org { text-align: center; text-decoration: underline; text-transform: uppercase; }
+  .job-head .date { text-align: right; }
+  .proj b { color: #8fd18a; }
+  .muted { font-style: italic; color: #cfcfcf; }
+</style>
+</head>
+<body>
+  <h1>Spyros Charalambous</h1>
+  <p class="contact">
+    <span><a href="https://www.linkedin.com/in/spyros-charalambous-1047b3284/">LinkedIn</a></span>
+    <span>+357 99109005</span>
+    <span><a href="https://spyros-charalambous.vercel.app/">Portfolio</a></span>
+    <span><a href="https://github.com/TbagHop">GitHub</a></span>
+    <span><a href="mailto:charalambous.spyros@yahoo.com">charalambous.spyros@yahoo.com</a></span>
+  </p>
+
+  <h2>Summary</h2>
+  <p>Front-end Engineer with 3+ years of professional experience on a high-traffic web platform. I build landing pages and UI with Angular, TypeScript and SCSS, focused on responsive layouts, clean component structure and fast load times. Currently expanding into React, Redux Toolkit and real-time features (WebSockets, WebRTC), and I use AI coding agents daily to build and review code.</p>
+
+  <h2>Skills</h2>
+  <ul>
+    <li><b>Core:</b> HTML5 | CSS3 | SCSS | JavaScript (ES6+) | TypeScript | Responsive design</li>
+    <li><b>Frameworks:</b> Angular | React | PHP templating</li>
+    <li><b>Workflow:</b> Git | Merge requests &amp; code review | Web performance | AI coding agents</li>
+    <li><b>Currently learning:</b> Redux Toolkit | WebSockets | WebRTC</li>
+    <li><b>Languages:</b> English, Greek <span class="muted">(professional proficiency or above)</span></li>
+  </ul>
+
+  <h2>Experience</h2>
+  <div class="job">
+    <div class="job-head"><span>Front-end Engineer</span><span class="org">High-traffic web platform</span><span class="date">2023 - Current</span></div>
+    <ul>
+      <li>Build and maintain landing pages and UI components with Angular, TypeScript and SCSS.</li>
+      <li>Deliver responsive, cross-browser layouts for a site with very high daily traffic.</li>
+      <li>Keep pages fast: lean assets, efficient styles and careful component structure.</li>
+      <li>Work in a Git merge-request workflow with code review.</li>
+    </ul>
+  </div>
+  <div class="job">
+    <div class="job-head"><span>Front-end Web Developer</span><span class="org">Freelance</span><span class="date">2022 - 2023</span></div>
+    <ul>
+      <li>Delivered web projects from personal blogs to e-commerce sites, working directly with clients on their requirements.</li>
+      <li>Focused on fast load times, responsive design and user-friendly interfaces.</li>
+    </ul>
+  </div>
+  <div class="job">
+    <div class="job-head"><span>Office Assistant</span><span class="org">N.P.P. Betomix, Ltd.</span><span class="date">01/2023 - 2023</span></div>
+    <ul>
+      <li>Entered invoices and waybills into Cybeton; kept documents organized and accessible.</li>
+      <li>Coordinated truck maintenance information with mechanics and supported daily office operations.</li>
+    </ul>
+  </div>
+  <div class="job">
+    <div class="job-head"><span>Receptionist</span><span class="org">D.S.M Property Brothers Ltd, Hypnos Boutique Hotel</span><span class="date">04/2022 - 11/2022</span></div>
+    <ul>
+      <li>Handled reservations, payments, room assignments and invoice records; supervised the rooftop restaurant.</li>
+    </ul>
+  </div>
+  <div class="job">
+    <div class="job-head"><span>Data Entry</span><span class="org">Rapid Tests (Government)</span><span class="date">12/2021 - 04/2022</span></div>
+    <ul>
+      <li>Entered COVID-19 test results and patient data accurately, kept records confidential and produced tracking reports.</li>
+    </ul>
+  </div>
+  <div class="job">
+    <div class="job-head"><span>Barista</span><span class="org">Zorbas Coffee Berry</span><span class="date">10/2018 - 12/2020</span></div>
+    <ul>
+      <li>Prepared espresso-based drinks, served customers and handled cash transactions.</li>
+    </ul>
+  </div>
+
+  <h2>Projects</h2>
+  <ul class="proj">
+    <li><b>Bankist</b> - A banking landing page and minimalist banking app: smooth scrolling, tabbed components, lazy-loaded images, plus login, transfers, loans, sorting and an auto-logout timer.</li>
+    <li><b>.sneakers</b> - An e-commerce product page with an image gallery and lightbox, quantity selector and a working cart.</li>
+    <li><b>Mapty</b> - A workout tracker on an interactive map: geolocation, class-based architecture and data saved in localStorage.</li>
+    <li><b>Omnifood</b> - A fully responsive landing page for a meal-delivery service, built with flexbox and grid.</li>
+  </ul>
+
+  <h2>Education</h2>
+  <ul>
+    <li><b>Intercollege, Nicosia</b> - Hospitality studies, including Computer Tech, Accounting and English I &amp; II</li>
+  </ul>
+</body>
+</html>
